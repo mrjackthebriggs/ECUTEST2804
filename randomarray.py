@@ -4,7 +4,7 @@ array = []
 
 # Add comments next time
 def rand_seq():
-    for i in range(1,10):
+    for i in range(1,11):
         sub_array = []
         for j in random.sample(range(1,11),10):
             sub_array.append(j)
