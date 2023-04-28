@@ -9,5 +9,4 @@ def rand_seq():
         for j in random.sample(range(1,11),10):
             sub_array.append(j)
         array.append(sub_array)
-        print(sub_array)
     return array 
